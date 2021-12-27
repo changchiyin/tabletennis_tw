@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB1CDA127772B6E002B6242 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB1CDA027772B6E002B6242 /* SwiftUIPullToRefresh */; };
+		4AEB254027774C77005F68DB /* NewsNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB253F27774C77005F68DB /* NewsNavView.swift */; };
+		4AEB254227774C88005F68DB /* PlaceNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB254127774C88005F68DB /* PlaceNavView.swift */; };
+		4AEB254627776E44005F68DB /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB254527776E44005F68DB /* NetworkReachability.swift */; };
+		4B505EE327763CE000D5E039 /* tabletennis_twApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505EE227763CE000D5E039 /* tabletennis_twApp.swift */; };
+		4B505EE527763CE000D5E039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505EE427763CE000D5E039 /* ContentView.swift */; };
+		4B505EE727763CEA00D5E039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B505EE627763CEA00D5E039 /* Assets.xcassets */; };
+		4B505EEA27763CEA00D5E039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B505EE927763CEA00D5E039 /* Preview Assets.xcassets */; };
+		4B505EF7277643C700D5E039 /* GetPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505EF6277643C700D5E039 /* GetPlace.swift */; };
+		4B505EFA277643E500D5E039 /* GetNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505EF9277643E500D5E039 /* GetNews.swift */; };
+		4B505EFD27764B5500D5E039 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505EFC27764B5500D5E039 /* Place.swift */; };
+		4B505F002777127E00D5E039 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505EFF2777127E00D5E039 /* PlaceView.swift */; };
+		4B505F042777128B00D5E039 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505F032777128B00D5E039 /* NewsView.swift */; };
+		4B505F0727771BD200D5E039 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B505F0627771BD200D5E039 /* News.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AEB253F27774C77005F68DB /* NewsNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNavView.swift; sourceTree = "<group>"; };
+		4AEB254127774C88005F68DB /* PlaceNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceNavView.swift; sourceTree = "<group>"; };
+		4AEB254527776E44005F68DB /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		4B505EDF27763CE000D5E039 /* tabletennis_tw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabletennis_tw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B505EE227763CE000D5E039 /* tabletennis_twApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabletennis_twApp.swift; sourceTree = "<group>"; };
+		4B505EE427763CE000D5E039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B505EE627763CEA00D5E039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B505EE927763CEA00D5E039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B505EEB27763CEA00D5E039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B505EF6277643C700D5E039 /* GetPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlace.swift; sourceTree = "<group>"; };
+		4B505EF9277643E500D5E039 /* GetNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNews.swift; sourceTree = "<group>"; };
+		4B505EFC27764B5500D5E039 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		4B505EFF2777127E00D5E039 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		4B505F032777128B00D5E039 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		4B505F0627771BD200D5E039 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B505EDC27763CDF00D5E039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1CDA127772B6E002B6242 /* SwiftUIPullToRefresh in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B505ED627763CDF00D5E039 = {
+			isa = PBXGroup;
+			children = (
+				4B505EE127763CE000D5E039 /* tabletennis_tw */,
+				4B505EE027763CE000D5E039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B505EE027763CE000D5E039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B505EDF27763CE000D5E039 /* tabletennis_tw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B505EE127763CE000D5E039 /* tabletennis_tw */ = {
+			isa = PBXGroup;
+			children = (
+				4B505EF427763D1200D5E039 /* View */,
+				4B505EF327763D0C00D5E039 /* Model */,
+				4B505EF227763CFD00D5E039 /* ViewModel */,
+				4B505EE227763CE000D5E039 /* tabletennis_twApp.swift */,
+				4B505EE627763CEA00D5E039 /* Assets.xcassets */,
+				4B505EEB27763CEA00D5E039 /* Info.plist */,
+				4B505EE827763CEA00D5E039 /* Preview Content */,
+			);
+			path = tabletennis_tw;
+			sourceTree = "<group>";
+		};
+		4B505EE827763CEA00D5E039 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B505EE927763CEA00D5E039 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B505EF227763CFD00D5E039 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B505EF6277643C700D5E039 /* GetPlace.swift */,
+				4B505EF9277643E500D5E039 /* GetNews.swift */,
+				4AEB254527776E44005F68DB /* NetworkReachability.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B505EF327763D0C00D5E039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B505EFC27764B5500D5E039 /* Place.swift */,
+				4B505F0627771BD200D5E039 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B505EF427763D1200D5E039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B505EE427763CE000D5E039 /* ContentView.swift */,
+				4B505EFF2777127E00D5E039 /* PlaceView.swift */,
+				4AEB254127774C88005F68DB /* PlaceNavView.swift */,
+				4B505F032777128B00D5E039 /* NewsView.swift */,
+				4AEB253F27774C77005F68DB /* NewsNavView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B505EDE27763CDF00D5E039 /* tabletennis_tw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B505EEE27763CEA00D5E039 /* Build configuration list for PBXNativeTarget "tabletennis_tw" */;
+			buildPhases = (
+				4B505EDB27763CDF00D5E039 /* Sources */,
+				4B505EDC27763CDF00D5E039 /* Frameworks */,
+				4B505EDD27763CDF00D5E039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tabletennis_tw;
+			packageProductDependencies = (
+				4AB1CDA027772B6E002B6242 /* SwiftUIPullToRefresh */,
+			);
+			productName = tabletennis_tw;
+			productReference = 4B505EDF27763CE000D5E039 /* tabletennis_tw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B505ED727763CDF00D5E039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4B505EDE27763CDF00D5E039 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4B505EDA27763CDF00D5E039 /* Build configuration list for PBXProject "tabletennis_tw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B505ED627763CDF00D5E039;
+			packageReferences = (
+				4AB1CD9F27772B6E002B6242 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */,
+			);
+			productRefGroup = 4B505EE027763CE000D5E039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B505EDE27763CDF00D5E039 /* tabletennis_tw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B505EDD27763CDF00D5E039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B505EEA27763CEA00D5E039 /* Preview Assets.xcassets in Resources */,
+				4B505EE727763CEA00D5E039 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B505EDB27763CDF00D5E039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEB254627776E44005F68DB /* NetworkReachability.swift in Sources */,
+				4B505F002777127E00D5E039 /* PlaceView.swift in Sources */,
+				4B505EF7277643C700D5E039 /* GetPlace.swift in Sources */,
+				4B505F0727771BD200D5E039 /* News.swift in Sources */,
+				4AEB254027774C77005F68DB /* NewsNavView.swift in Sources */,
+				4B505EFA277643E500D5E039 /* GetNews.swift in Sources */,
+				4B505F042777128B00D5E039 /* NewsView.swift in Sources */,
+				4AEB254227774C88005F68DB /* PlaceNavView.swift in Sources */,
+				4B505EE527763CE000D5E039 /* ContentView.swift in Sources */,
+				4B505EE327763CE000D5E039 /* tabletennis_twApp.swift in Sources */,
+				4B505EFD27764B5500D5E039 /* Place.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B505EEC27763CEA00D5E039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B505EED27763CEA00D5E039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B505EEF27763CEA00D5E039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tabletennis_tw/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tabletennis_tw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tina.tabletennis-tw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B505EF027763CEA00D5E039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tabletennis_tw/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tabletennis_tw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tina.tabletennis-tw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B505EDA27763CDF00D5E039 /* Build configuration list for PBXProject "tabletennis_tw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B505EEC27763CEA00D5E039 /* Debug */,
+				4B505EED27763CEA00D5E039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B505EEE27763CEA00D5E039 /* Build configuration list for PBXNativeTarget "tabletennis_tw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B505EEF27763CEA00D5E039 /* Debug */,
+				4B505EF027763CEA00D5E039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AB1CD9F27772B6E002B6242 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-pull-to-refresh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AB1CDA027772B6E002B6242 /* SwiftUIPullToRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB1CD9F27772B6E002B6242 /* XCRemoteSwiftPackageReference "swiftui-pull-to-refresh" */;
+			productName = SwiftUIPullToRefresh;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B505ED727763CDF00D5E039 /* Project object */;
+}
